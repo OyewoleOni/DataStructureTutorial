@@ -10,6 +10,13 @@ namespace LinkedList_1
     {
         static void Main(string[] args)
         {
+            LinkedList list = new LinkedList();
+
+            Console.WriteLine($"Is it empty? - {list.Empty}" );
+
+            Console.WriteLine($"Count - {list.Count}");
+
+            Console.ReadLine();
         }
     }
 }
